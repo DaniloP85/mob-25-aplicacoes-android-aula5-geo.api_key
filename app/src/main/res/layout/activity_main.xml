@@ -11,6 +11,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:onClick="acessarRecuperarFotos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/recuperando_fotos_com_imageview"
