@@ -11,14 +11,14 @@
     tools:context=".MainActivity">
 
     <Button
-        android:onClick="acessarRecuperarFotos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/recuperando_fotos_com_imageview"
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="RtlHardcoded"
+        android:onClick="acessarRecuperacaoFotos" />
 
     <Button
         android:layout_width="match_parent"
@@ -84,13 +84,14 @@
         tools:ignore="RtlHardcoded"/>
 
     <Button
-        android:onClick="acessarAnimacao"
+        android:id="@+id/btn_animacao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/animacao"
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="OnClick,RtlHardcoded"/>
+        tools:ignore="OnClick,RtlHardcoded,UsingOnClickInXml"
+        android:onClick="acessarAnimacao"/>
 
 </LinearLayout>

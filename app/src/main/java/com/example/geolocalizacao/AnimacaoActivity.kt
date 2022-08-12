@@ -1,14 +1,24 @@
-package com.example.myapplication
+package com.example.geolocalizacao
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import androidx.appcompat.app.AppCompatActivity
-import com.example.geolocalizacao.R
-import kotlinx.android.synthetic.main.activity_animation.*
+import kotlinx.android.synthetic.main.activity_animacao.*
+
 
 class AnimacaoActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_animacao)
+
+        lv.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, animations)
+        lv.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+            val animation = AnimationUtils.loadAnimation(this, animationsIds[position])
+            tv.startAnimation(animation)
+        }
+    }
 
     // nomes dos efeitos
     internal var animations = arrayOf(
@@ -37,17 +47,4 @@ class AnimacaoActivity : AppCompatActivity() {
         R.anim.slide_down,
         R.anim.bounce,
     )
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_animation)
-        // adapter de items passando os nomes dos efeitos
-        lv.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, animations)
-        // ação dos items da lista
-        lv.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            val animation = AnimationUtils.loadAnimation(this, animationsIds[position])
-            tv.startAnimation(animation)
-        }
-
-    }
 }
