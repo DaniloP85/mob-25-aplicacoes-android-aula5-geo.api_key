@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Geo Localizacao</string>
+    <string name="recuperando_fotos_com_imageview">Recuperando fotos com ImageView</string>
+    <string name="utilizando_mapview">Utilizando mapas: MapView</string>
+    <string name="location_api">Localização do usuário com Location API</string>
+    <string name="rotas">Rotas</string>
+    <string name="pontos_interesse">Pontos Interesse</string>
+    <string name="usando_webview">Usando WebView em seus Apps</string>
+    <string name="som">Sons:AudioManager</string>
+    <string name="video">Vídeos: MediaPlayer</string>
+    <string name="animacao">Animação em views com View Animation</string>
+</resources>

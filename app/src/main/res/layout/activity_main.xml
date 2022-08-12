@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperando_fotos_com_imageview"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/utilizando_mapview"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_api"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rotas"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pontos_interesse"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usando_webview"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/som"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animacao"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded"/>
+
+</LinearLayout>
