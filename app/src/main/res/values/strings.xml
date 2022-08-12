@@ -9,4 +9,5 @@
     <string name="som">Sons:AudioManager</string>
     <string name="video">Vídeos: MediaPlayer</string>
     <string name="animacao">Animação em views com View Animation</string>
+    <string name="fiap_on">Fiap On</string>
 </resources>

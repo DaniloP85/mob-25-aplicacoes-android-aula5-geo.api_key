@@ -84,12 +84,13 @@
         tools:ignore="RtlHardcoded"/>
 
     <Button
+        android:onClick="acessarAnimacao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/animacao"
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded"/>
+        tools:ignore="OnClick,RtlHardcoded"/>
 
 </LinearLayout>
