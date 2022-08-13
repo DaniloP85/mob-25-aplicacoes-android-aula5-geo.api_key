@@ -72,7 +72,8 @@
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded"/>
+        tools:ignore="RtlHardcoded"
+        android:onClick="audioManager"/>
 
     <Button
         android:layout_width="match_parent"

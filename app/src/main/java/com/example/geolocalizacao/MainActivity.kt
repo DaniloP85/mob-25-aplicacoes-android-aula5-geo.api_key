@@ -12,12 +12,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun acessarRecuperacaoFotos(view: View) {
-         val intent = Intent(this, RecuperacaoFotosActivity::class.java)
-         startActivity(intent)
+        val intent = Intent(this, RecuperacaoFotosActivity::class.java)
+        startActivity(intent)
     }
 
     fun acessarAnimacao(view: View) {
         val intent = Intent(this, AnimacaoActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun audioManager(view: View) {
+        val intent = Intent(this, SonsAudiosActivity::class.java)
         startActivity(intent)
     }
 }

@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/logonrmlocal/AndroidStudioProjects/mob-25-aplicacoes-android-aula5-geo.api_key/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1785" />
         <entry key="app/src/main/res/layout/activity_animacao2.xml" value="0.14907407407407408" />
         <entry key="app/src/main/res/layout/activity_animation.xml" value="0.1331521739130435" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_recuperacao_fotos.xml" value="0.2713541666666667" />
+        <entry key="app/src/main/res/layout/activity_sons_audios.xml" value="0.26458333333333334" />
       </map>
     </option>
   </component>

@@ -18,6 +18,9 @@
         android:theme="@style/Theme.GeoLocalizacao"
         tools:targetApi="31">
         <activity
+            android:name=".SonsAudiosActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecuperacaoFotosActivity"
             android:exported="false" />
         <activity
