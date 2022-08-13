@@ -18,6 +18,9 @@
         android:theme="@style/Theme.GeoLocalizacao"
         tools:targetApi="31">
         <activity
+            android:name=".RecuperacaoFotosActivity"
+            android:exported="false" />
+        <activity
             android:name=".AnimacaoActivity"
             android:exported="false" />
         <activity

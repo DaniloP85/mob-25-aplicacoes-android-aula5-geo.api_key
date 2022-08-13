@@ -10,4 +10,11 @@
     <string name="video">Vídeos: MediaPlayer</string>
     <string name="animacao">Animação em views com View Animation</string>
     <string name="fiap_on">Fiap On</string>
+    <string name="content_dscription_leao">Leão</string>
+    <string name="content_dscription_Pinguin">Pinguin</string>
+    <string name="content_dscription_urso">Urso</string>
+    <string name="content_dscription_girafa">Girafa</string>
+    <string name="content_dscription_tigre">Tigre</string>
+    <string name="content_dscription_rato">Rato</string>
+
 </resources>
