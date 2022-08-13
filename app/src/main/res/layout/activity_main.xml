@@ -17,7 +17,7 @@
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml"
         android:onClick="acessarRecuperacaoFotos" />
 
     <Button
@@ -63,7 +63,7 @@
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml"
         android:onClick="usandoWebview"
         />
 
@@ -74,7 +74,7 @@
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml"
         android:onClick="audioManager"/>
 
     <Button
@@ -84,7 +84,8 @@
         android:textSize="14sp"
         android:textAllCaps="false"
         android:gravity="left"
-        tools:ignore="RtlHardcoded"/>
+        android:onClick="videoMediaPlayer"
+        tools:ignore="RtlHardcoded,UsingOnClickInXml"/>
 
     <Button
         android:id="@+id/btn_animacao"

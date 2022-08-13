@@ -18,6 +18,9 @@
         android:theme="@style/Theme.GeoLocalizacao"
         tools:targetApi="31">
         <activity
+            android:name=".VideoMediaPlayerActivity"
+            android:exported="false" />
+        <activity
             android:name=".UsandoWebViewActivity"
             android:exported="false" />
         <activity

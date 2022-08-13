@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+@Suppress("UNUSED_PARAMETER")
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +29,11 @@ class MainActivity : AppCompatActivity() {
 
     fun usandoWebview(view: View) {
         val intent = Intent(this, UsandoWebViewActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun videoMediaPlayer(view: View) {
+        val intent = Intent(this, VideoMediaPlayerActivity::class.java)
         startActivity(intent)
     }
 }
