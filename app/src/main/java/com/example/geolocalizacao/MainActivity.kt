@@ -25,4 +25,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SonsAudiosActivity::class.java)
         startActivity(intent)
     }
+
+    fun usandoWebview(view: View) {
+        val intent = Intent(this, UsandoWebViewActivity::class.java)
+        startActivity(intent)
+    }
 }

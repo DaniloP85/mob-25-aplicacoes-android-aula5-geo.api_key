@@ -11,6 +11,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_recuperacao_fotos.xml" value="0.2713541666666667" />
         <entry key="app/src/main/res/layout/activity_sons_audios.xml" value="0.26458333333333334" />
+        <entry key="app/src/main/res/layout/activity_usando_web_view.xml" value="0.2" />
       </map>
     </option>
   </component>
