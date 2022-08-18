@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Geo Localizacao</string>
+    <string name="app_name">Multimidia e Conexao</string>
     <string name="recuperando_fotos_com_imageview">Recuperando fotos com ImageView</string>
     <string name="utilizando_mapview">Utilizando mapas: MapView</string>
     <string name="location_api">Localização do usuário com Location API</string>

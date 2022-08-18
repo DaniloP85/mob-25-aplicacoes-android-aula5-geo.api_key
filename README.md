@@ -14,7 +14,7 @@ Aprofundar os estudos na comunicação externa no dispositivo Android
 | ------------- | ------------- |
 |![Aplicativo 1](img_readme/v1.png)|![Aplicativo 1](img_readme/v3.png)|
 |![Aplicativo 1](img_readme/v5.png)|![Aplicativo 1](img_readme/v4.png)|
-|![Aplicativo 1](img_readme/v2.png)||
+|![Aplicativo 1](img_readme/v2.png)|![Aplicativo 1](img_readme/v6.png)|
 
 # VersionCode: 1.0
 
